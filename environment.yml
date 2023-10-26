@@ -1,6 +1,6 @@
+channels:
+   - conda-forge
 dependencies:
   - python=3.11
   - panel
-  - pip
-  - pip:
-    - jupyter-server-proxy
+  - jupyter-server-proxy
