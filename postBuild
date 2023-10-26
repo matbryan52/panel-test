@@ -1,5 +1,3 @@
-#!/bin/bash
-set -e
 # enable jupyter_server_proxy
 jupyter serverextension enable --sys-prefix jupyter_server_proxy
 # install the bokeh server extension so that
