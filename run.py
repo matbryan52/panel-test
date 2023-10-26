@@ -20,4 +20,4 @@ def make_layout():
 
     return pn.Column(inp, output, btn)
 
-make_layout().servable()
+make_layout().servable(location="test_app")
