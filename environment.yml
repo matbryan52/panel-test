@@ -3,4 +3,6 @@ channels:
 dependencies:
   - panel
   - jupyter_server<2.9
-  - jupyter-server-proxy
+  - pip
+  - pip:
+    - jupyter-server-proxy
