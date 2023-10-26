@@ -2,7 +2,7 @@
 jupyter serverextension enable --sys-prefix jupyter_server_proxy
 # install the bokeh server extension so that
 echo ${NB_PYTHON_PREFIX}
-ls ${NB_PYTHON_PREFIX}/lib/python3.11/site-packages/
+ls ${NB_PYTHON_PREFIX}
 # bokeh launches at startup
 mv panelserverextension.py ${NB_PYTHON_PREFIX}/lib/python3.11/site-packages/
 # enable bokeh extension
