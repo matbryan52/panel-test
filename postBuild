@@ -6,6 +6,5 @@
 # enable bokeh extension
 # jupyter serverextension enable --sys-prefix panelserverextension
 
-jupyter labextension list
-jupyter serverextension list
+jupyter serverextension update --all
 # jupyter nbextension list
