@@ -6,4 +6,5 @@ mv panelserverextension.py /srv/conda/envs/notebook/lib/python3.11/site-packages
 # enable bokeh extension
 jupyter serverextension enable --sys-prefix panelserverextension
 
-jupyter kernelspec list
+jupyter serverextension list
+jupyter nbextension list
