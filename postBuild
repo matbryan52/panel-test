@@ -4,6 +4,5 @@
 # bokeh launches at startup
 mv panelserverextension.py /srv/conda/envs/notebook/lib/python3.10/site-packages/panelserverextension.py
 # enable bokeh extension
-/srv/conda/envs/notebook/bin/jupyter-serverextension --show-config enable --sys-prefix panelserverextension
-/srv/conda/envs/notebook/bin/jupyter-serverextension --show-config list
+/srv/conda/envs/notebook/bin/jupyter-serverextension --log-level=0 --show-config --sys-prefix enable panelserverextension
 # jupyter nbextension list
