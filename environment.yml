@@ -2,7 +2,6 @@ channels:
    - conda-forge
 dependencies:
   - panel
-  - jupyter_server<2.9
   - pip
   - pip:
     - jupyter-server-proxy
