@@ -2,4 +2,6 @@ dependencies:
   - panel
   - pip
   - pip:
+    - jupyter-server
+    - jupyter-client
     - jupyter-server-proxy
